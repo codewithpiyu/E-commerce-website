@@ -1,12 +1,10 @@
-
-
-import { homeQuantityToggle } from "./homeQuantityToggle";
 import { addToCart } from "./addToCart";
+import { homeQuantityToggle } from "./homeQuantityToggle";
 
 const productContainer = document.querySelector("#productContainer");
 const productTemplate = document.querySelector("#productTemplate");
 
-export const showProductContanier = (products) => {
+const showProductContainer = (products) => {
   if (!products) {
     return false;
   }
@@ -45,3 +43,5 @@ export const showProductContanier = (products) => {
     productContainer.append(productClone);
   });
 };
+
+export default showProductContainer;

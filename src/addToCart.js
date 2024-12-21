@@ -1,5 +1,5 @@
-import { getCartProductFromLS } from "./getCartProducts";
-import { showToast } from "./showToast";
+import { getCartProductFromLS } from "./getCartProductFromLS.JS";
+import { showToast } from "./showtest";
 import { updateCartValue } from "./updateCartValue";
 
 // -----------------------------------------------------
